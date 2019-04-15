@@ -1,0 +1,33 @@
+.main-content
+{
+    display: flex;
+    flex-direction: column;
+    .content-item
+    {
+        .center(100px);
+        display: inherit;
+        flex-direction: column;
+
+        vertical-align: middle;
+        .content-box
+        {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 100px;
+            img
+            {
+                width: 30%;
+                height: 100%;   
+            }
+            div
+            {
+                width: 60%;
+            }
+        }
+        .content-box:last-child
+        {
+            margin: 0;
+        }
+       
+    }
+}
